@@ -9,6 +9,7 @@ import ProjectShowcase from '@/components/ProjectShowcase';
 import FAQSection from '@/components/FAQSection';
 import ContactForm from '@/Home/ContactForm';
 import Service from '@/Home/Service';
+import LiveTV from '@/components/LiveATv';
 
 
 export default function ServicesPage() {
@@ -23,6 +24,7 @@ export default function ServicesPage() {
       <Testimonial />
       <FAQSection />
       <ContactForm />
+      <LiveTV />
       <Footer />
     </>
   );
